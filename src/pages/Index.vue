@@ -15,7 +15,6 @@ export default defineComponent({
   name: 'PageIndex',
   methods: {
     startGame() {
-      // 这里添加开始游戏的逻辑
       this.$router.push('/game');
     },
   },
